@@ -27,13 +27,13 @@ pygame.display.set_caption("숫자 야구") # 게임 타이틀
 clock = pygame.time.Clock()
 #----------------------------------------------------------------------------------
 # 사용자 게임 초기화
-programIcon = pygame.image.load('경로\\아이콘.png') # 파이게임 윈도우 아이콘 지정
+programIcon = pygame.image.load('resources\\아이콘.png') # 파이게임 윈도우 아이콘 지정
 pygame.display.set_icon(programIcon)
 
-background = pygame.image.load("경로\\배경.png")     # 필요 사진들 불러오기
-gscreen = pygame.image.load("경로\\게임화면.png")
-next = pygame.image.load("경로\\다음.png")
-cover = pygame.image.load("경로\\가리개.png")
+background = pygame.image.load("resources\\배경.png")     # 필요 사진들 불러오기
+gscreen = pygame.image.load("resources\\게임화면.png")
+next = pygame.image.load("resources\\다음.png")
+cover = pygame.image.load("resources\\가리개.png")
 
 font = pygame.font.SysFont("arial", 80)  # 폰트 설정
 Sfont = pygame.font.SysFont("arial", 30)
